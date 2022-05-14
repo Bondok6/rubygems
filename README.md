@@ -1,24 +1,46 @@
-# README
+# Rubygems
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> The Rubygems app is a fully functional website that shows the list of courses and empowers readers to interact with.
 
-Things you may want to cover:
+## Built With
+- Ruby
+- Rails
+- PostgreSql
 
-* Ruby version
 
-* System dependencies
+## Getting Started
+To get a local copy up and running follow these simple example steps.
 
-* Configuration
+- Click on the top right green "code" button.
+- On the dropdown menu, choose "download with zip" button.
+- After download, extract the zip file and you have the project on your machine.
+- Run `bundle install` to install all gems for the project.
+- Run `rails s` to start your project, open `http://127.0.0.1:3000/` to see the project.
+- Run `rails db:migrate` to run the migration.
 
-* Database creation
 
-* Database initialization
+## Testing
 
-* How to run the test suite
+- Run `bundle exec rspec` to run all the tests, and you see the official docs [here](https://github.com/rspec/rspec-rails).
+- To generate `rails generate rspec:model user` test file for model.
+- Run `bundle exec rspec spec/models` to test models tests.
+- To check linters run `rubocop -A` && `npx stylelint "**/*.{css,scss}" --fix`.
 
-* Services (job queues, cache servers, search engines, etc.)
+## Authors
 
-* Deployment instructions
+👤 **Kyrillos Hany**
 
-* ...
+- GitHub: [@Bondok6](https://github.com/Bondok6)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kyrillos-hany/)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
